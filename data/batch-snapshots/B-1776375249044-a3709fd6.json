@@ -1,0 +1,1945 @@
+{
+  "batch_api_version": "2.4.0",
+  "batch_id": "B-1776375249044-a3709fd6",
+  "created_at": "2026-04-16T21:34:09.044Z",
+  "decision_status": "processed",
+  "metrics_summary": {
+    "batch_id": "B-1776375249044-a3709fd6",
+    "files_received": 2,
+    "files_parsed": 2,
+    "quotes_extracted": 6,
+    "executionTime": "3.13s",
+    "execution_seconds": 3.13,
+    "stage_timings_ms": {
+      "parse": 123,
+      "consolidate": 1,
+      "semantic": 0,
+      "rank": 0,
+      "openai": 2683,
+      "review_build": 0,
+      "export": 321
+    },
+    "manual_review_required": false,
+    "blocking_issue_count": 0,
+    "error_issue_count": 0,
+    "warning_issue_count": 0,
+    "info_issue_count": 0,
+    "item_key_collision_count": 0,
+    "analysis_source": "openai",
+    "semantic_match_attempted_count": 0,
+    "semantic_match_applied_count": 0,
+    "semantic_match_manual_review_count": 0,
+    "semantic_match_rejected_count": 0,
+    "semantic_match_skipped_count": 0,
+    "semantic_match_openai_error_count": 0,
+    "semantic_match_openai_calls": 0,
+    "semantic_match_confidence_avg": null,
+    "semantic_match_confidence_min": null,
+    "semantic_match_confidence_max": null,
+    "semantic_match_estimated_prompt_tokens_total": 0,
+    "semantic_match_estimated_cost_usd_approx": null
+  },
+  "parsed_files": [
+    {
+      "file_index": 0,
+      "source_filename": "Template Output IA.xlsx",
+      "quotation_id": "XX/26",
+      "parse_ok": true,
+      "supplier_quotes": [
+        {
+          "proposal_key": "fornecedor_a_template_output_iaxlsx_0",
+          "proposal_label": "Fornecedor A (Template Output IA.xlsx) [0]",
+          "supplier_name": "Fornecedor A",
+          "source_filename": "Template Output IA.xlsx",
+          "quotation_id": "XX/26",
+          "file_index": 0,
+          "items": [
+            {
+              "item_key": "apple mac mini|q:20|u:un",
+              "descricao": "Apple Mac Mini",
+              "quantidade": 20,
+              "unidade": "UN",
+              "preco_unitario": 5000,
+              "total": 100000,
+              "row": 3
+            },
+            {
+              "item_key": "dell monitor - se2426hg|q:10|u:un",
+              "descricao": "Dell Monitor - SE2426HG",
+              "quantidade": 10,
+              "unidade": "UN",
+              "preco_unitario": 500,
+              "total": 5000,
+              "row": 4
+            },
+            {
+              "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+              "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+              "quantidade": 40,
+              "unidade": "UN",
+              "preco_unitario": 300,
+              "total": 12000,
+              "row": 5
+            },
+            {
+              "item_key": "d|u:un",
+              "descricao": "D",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 6
+            },
+            {
+              "item_key": "e|u:un",
+              "descricao": "E",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 7
+            },
+            {
+              "item_key": "f|u:un",
+              "descricao": "F",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 8
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 9
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 10
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 11
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 12
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 13
+            }
+          ],
+          "freight_total": 0,
+          "declared_total": 117000,
+          "recalculated_total": 117000,
+          "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+          "payment_terms": "Condição de pgto | 90 DIAS | 90 DIAS | 60 DIAS | 60 DIAS | 90 DIAS | 90 DIAS",
+          "warnings": []
+        },
+        {
+          "proposal_key": "fornecedor_b_template_output_iaxlsx_0",
+          "proposal_label": "Fornecedor B (Template Output IA.xlsx) [0]",
+          "supplier_name": "Fornecedor B",
+          "source_filename": "Template Output IA.xlsx",
+          "quotation_id": "XX/26",
+          "file_index": 0,
+          "items": [
+            {
+              "item_key": "apple mac mini|q:20|u:un",
+              "descricao": "Apple Mac Mini",
+              "quantidade": 20,
+              "unidade": "UN",
+              "preco_unitario": 2000,
+              "total": 40000,
+              "row": 3
+            },
+            {
+              "item_key": "dell monitor - se2426hg|q:10|u:un",
+              "descricao": "Dell Monitor - SE2426HG",
+              "quantidade": 10,
+              "unidade": "UN",
+              "preco_unitario": 450,
+              "total": 4500,
+              "row": 4
+            },
+            {
+              "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+              "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+              "quantidade": 40,
+              "unidade": "UN",
+              "preco_unitario": 250,
+              "total": 10000,
+              "row": 5
+            },
+            {
+              "item_key": "d|u:un",
+              "descricao": "D",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 6
+            },
+            {
+              "item_key": "e|u:un",
+              "descricao": "E",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 7
+            },
+            {
+              "item_key": "f|u:un",
+              "descricao": "F",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 8
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 9
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 10
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 11
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 12
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 13
+            }
+          ],
+          "freight_total": 0,
+          "declared_total": 54500,
+          "recalculated_total": 54500,
+          "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+          "payment_terms": "Condição de pgto | 90 DIAS | 90 DIAS | 60 DIAS | 60 DIAS | 90 DIAS | 90 DIAS",
+          "warnings": []
+        },
+        {
+          "proposal_key": "fornecedor_c_template_output_iaxlsx_0",
+          "proposal_label": "Fornecedor C (Template Output IA.xlsx) [0]",
+          "supplier_name": "Fornecedor C",
+          "source_filename": "Template Output IA.xlsx",
+          "quotation_id": "XX/26",
+          "file_index": 0,
+          "items": [
+            {
+              "item_key": "apple mac mini|q:20|u:un",
+              "descricao": "Apple Mac Mini",
+              "quantidade": 20,
+              "unidade": "UN",
+              "preco_unitario": 4500,
+              "total": 90000,
+              "row": 3
+            },
+            {
+              "item_key": "dell monitor - se2426hg|q:10|u:un",
+              "descricao": "Dell Monitor - SE2426HG",
+              "quantidade": 10,
+              "unidade": "UN",
+              "preco_unitario": 250,
+              "total": 2500,
+              "row": 4
+            },
+            {
+              "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+              "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+              "quantidade": 40,
+              "unidade": "UN",
+              "preco_unitario": 700,
+              "total": 28000,
+              "row": 5
+            },
+            {
+              "item_key": "d|u:un",
+              "descricao": "D",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 6
+            },
+            {
+              "item_key": "e|u:un",
+              "descricao": "E",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 7
+            },
+            {
+              "item_key": "f|u:un",
+              "descricao": "F",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 8
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 9
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 10
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 11
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 12
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 13
+            }
+          ],
+          "freight_total": 0,
+          "declared_total": 120500,
+          "recalculated_total": 120500,
+          "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+          "payment_terms": "Condição de pgto | 90 DIAS | 90 DIAS | 60 DIAS | 60 DIAS | 90 DIAS | 90 DIAS",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "file_index": 1,
+      "source_filename": "Template Output IA2.xlsx",
+      "quotation_id": "XX/26",
+      "parse_ok": true,
+      "supplier_quotes": [
+        {
+          "proposal_key": "fornecedor_d_template_output_ia2xlsx_1",
+          "proposal_label": "Fornecedor D (Template Output IA2.xlsx) [1]",
+          "supplier_name": "Fornecedor D",
+          "source_filename": "Template Output IA2.xlsx",
+          "quotation_id": "XX/26",
+          "file_index": 1,
+          "items": [
+            {
+              "item_key": "apple mac mini|q:20|u:un",
+              "descricao": "Apple Mac Mini",
+              "quantidade": 20,
+              "unidade": "UN",
+              "preco_unitario": 3500,
+              "total": 70000,
+              "row": 3
+            },
+            {
+              "item_key": "dell monitor - se2426hg|q:10|u:un",
+              "descricao": "Dell Monitor - SE2426HG",
+              "quantidade": 10,
+              "unidade": "UN",
+              "preco_unitario": 300,
+              "total": 3000,
+              "row": 4
+            },
+            {
+              "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+              "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+              "quantidade": 40,
+              "unidade": "UN",
+              "preco_unitario": 200,
+              "total": 8000,
+              "row": 5
+            },
+            {
+              "item_key": "d|u:un",
+              "descricao": "D",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 6
+            },
+            {
+              "item_key": "e|u:un",
+              "descricao": "E",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 7
+            },
+            {
+              "item_key": "f|u:un",
+              "descricao": "F",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 8
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 9
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 10
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 11
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 12
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 13
+            }
+          ],
+          "freight_total": 0,
+          "declared_total": 81000,
+          "recalculated_total": 81000,
+          "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+          "payment_terms": "Condição de pgto | 30 DIAS | 30 DIAS | 30 DIAS | 30 DIAS | 45 DIAS | 45 DIAS",
+          "warnings": []
+        },
+        {
+          "proposal_key": "fornecedor_e_template_output_ia2xlsx_1",
+          "proposal_label": "Fornecedor E (Template Output IA2.xlsx) [1]",
+          "supplier_name": "Fornecedor E",
+          "source_filename": "Template Output IA2.xlsx",
+          "quotation_id": "XX/26",
+          "file_index": 1,
+          "items": [
+            {
+              "item_key": "apple mac mini|q:20|u:un",
+              "descricao": "Apple Mac Mini",
+              "quantidade": 20,
+              "unidade": "UN",
+              "preco_unitario": 1500,
+              "total": 30000,
+              "row": 3
+            },
+            {
+              "item_key": "dell monitor - se2426hg|q:10|u:un",
+              "descricao": "Dell Monitor - SE2426HG",
+              "quantidade": 10,
+              "unidade": "UN",
+              "preco_unitario": 350,
+              "total": 3500,
+              "row": 4
+            },
+            {
+              "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+              "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+              "quantidade": 40,
+              "unidade": "UN",
+              "preco_unitario": 780,
+              "total": 31200,
+              "row": 5
+            },
+            {
+              "item_key": "d|u:un",
+              "descricao": "D",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 6
+            },
+            {
+              "item_key": "e|u:un",
+              "descricao": "E",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 7
+            },
+            {
+              "item_key": "f|u:un",
+              "descricao": "F",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 8
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 9
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 10
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 11
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 12
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 13
+            }
+          ],
+          "freight_total": 0,
+          "declared_total": 64700,
+          "recalculated_total": 64700,
+          "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+          "payment_terms": "Condição de pgto | 30 DIAS | 30 DIAS | 30 DIAS | 30 DIAS | 45 DIAS | 45 DIAS",
+          "warnings": []
+        },
+        {
+          "proposal_key": "fornecedor_f_template_output_ia2xlsx_1",
+          "proposal_label": "Fornecedor F (Template Output IA2.xlsx) [1]",
+          "supplier_name": "Fornecedor F",
+          "source_filename": "Template Output IA2.xlsx",
+          "quotation_id": "XX/26",
+          "file_index": 1,
+          "items": [
+            {
+              "item_key": "apple mac mini|q:20|u:un",
+              "descricao": "Apple Mac Mini",
+              "quantidade": 20,
+              "unidade": "UN",
+              "preco_unitario": 4000,
+              "total": 80000,
+              "row": 3
+            },
+            {
+              "item_key": "dell monitor - se2426hg|q:10|u:un",
+              "descricao": "Dell Monitor - SE2426HG",
+              "quantidade": 10,
+              "unidade": "UN",
+              "preco_unitario": 2800,
+              "total": 28000,
+              "row": 4
+            },
+            {
+              "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+              "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+              "quantidade": 40,
+              "unidade": "UN",
+              "preco_unitario": 300,
+              "total": 12000,
+              "row": 5
+            },
+            {
+              "item_key": "d|u:un",
+              "descricao": "D",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 6
+            },
+            {
+              "item_key": "e|u:un",
+              "descricao": "E",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 7
+            },
+            {
+              "item_key": "f|u:un",
+              "descricao": "F",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 8
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 9
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 10
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 11
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 12
+            },
+            {
+              "item_key": "...|u:un",
+              "descricao": "...",
+              "quantidade": 0,
+              "unidade": "UN",
+              "preco_unitario": 0,
+              "total": 0,
+              "row": 13
+            }
+          ],
+          "freight_total": 0,
+          "declared_total": 120000,
+          "recalculated_total": 120000,
+          "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+          "payment_terms": "Condição de pgto | 30 DIAS | 30 DIAS | 30 DIAS | 30 DIAS | 45 DIAS | 45 DIAS",
+          "warnings": []
+        }
+      ]
+    }
+  ],
+  "consolidated": {
+    "item_keys_sorted": [
+      "...|u:un",
+      "apple mac mini|q:20|u:un",
+      "d|u:un",
+      "dell monitor - se2426hg|q:10|u:un",
+      "e|u:un",
+      "f|u:un",
+      "kit teclado + mouse bluetooth p/ macbook|q:40|u:un"
+    ],
+    "rows": [
+      {
+        "item_key": "...|u:un",
+        "reference_description": "...",
+        "reference_quantity": 0,
+        "by_proposal": {
+          "fornecedor_a_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_b_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_c_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_d_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_e_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_f_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          }
+        }
+      },
+      {
+        "item_key": "apple mac mini|q:20|u:un",
+        "reference_description": "Apple Mac Mini",
+        "reference_quantity": 20,
+        "by_proposal": {
+          "fornecedor_a_template_output_iaxlsx_0": {
+            "unit_price": 5000,
+            "line_total": 100000,
+            "quantity": 20,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_b_template_output_iaxlsx_0": {
+            "unit_price": 2000,
+            "line_total": 40000,
+            "quantity": 20,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_c_template_output_iaxlsx_0": {
+            "unit_price": 4500,
+            "line_total": 90000,
+            "quantity": 20,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_d_template_output_ia2xlsx_1": {
+            "unit_price": 3500,
+            "line_total": 70000,
+            "quantity": 20,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_e_template_output_ia2xlsx_1": {
+            "unit_price": 1500,
+            "line_total": 30000,
+            "quantity": 20,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_f_template_output_ia2xlsx_1": {
+            "unit_price": 4000,
+            "line_total": 80000,
+            "quantity": 20,
+            "missing": false,
+            "quantity_divergent": false
+          }
+        }
+      },
+      {
+        "item_key": "d|u:un",
+        "reference_description": "D",
+        "reference_quantity": 0,
+        "by_proposal": {
+          "fornecedor_a_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_b_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_c_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_d_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_e_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_f_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          }
+        }
+      },
+      {
+        "item_key": "dell monitor - se2426hg|q:10|u:un",
+        "reference_description": "Dell Monitor - SE2426HG",
+        "reference_quantity": 10,
+        "by_proposal": {
+          "fornecedor_a_template_output_iaxlsx_0": {
+            "unit_price": 500,
+            "line_total": 5000,
+            "quantity": 10,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_b_template_output_iaxlsx_0": {
+            "unit_price": 450,
+            "line_total": 4500,
+            "quantity": 10,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_c_template_output_iaxlsx_0": {
+            "unit_price": 250,
+            "line_total": 2500,
+            "quantity": 10,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_d_template_output_ia2xlsx_1": {
+            "unit_price": 300,
+            "line_total": 3000,
+            "quantity": 10,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_e_template_output_ia2xlsx_1": {
+            "unit_price": 350,
+            "line_total": 3500,
+            "quantity": 10,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_f_template_output_ia2xlsx_1": {
+            "unit_price": 2800,
+            "line_total": 28000,
+            "quantity": 10,
+            "missing": false,
+            "quantity_divergent": false
+          }
+        }
+      },
+      {
+        "item_key": "e|u:un",
+        "reference_description": "E",
+        "reference_quantity": 0,
+        "by_proposal": {
+          "fornecedor_a_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_b_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_c_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_d_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_e_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_f_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          }
+        }
+      },
+      {
+        "item_key": "f|u:un",
+        "reference_description": "F",
+        "reference_quantity": 0,
+        "by_proposal": {
+          "fornecedor_a_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_b_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_c_template_output_iaxlsx_0": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_d_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_e_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_f_template_output_ia2xlsx_1": {
+            "unit_price": 0,
+            "line_total": 0,
+            "quantity": 0,
+            "missing": false,
+            "quantity_divergent": false
+          }
+        }
+      },
+      {
+        "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+        "reference_description": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+        "reference_quantity": 40,
+        "by_proposal": {
+          "fornecedor_a_template_output_iaxlsx_0": {
+            "unit_price": 300,
+            "line_total": 12000,
+            "quantity": 40,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_b_template_output_iaxlsx_0": {
+            "unit_price": 250,
+            "line_total": 10000,
+            "quantity": 40,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_c_template_output_iaxlsx_0": {
+            "unit_price": 700,
+            "line_total": 28000,
+            "quantity": 40,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_d_template_output_ia2xlsx_1": {
+            "unit_price": 200,
+            "line_total": 8000,
+            "quantity": 40,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_e_template_output_ia2xlsx_1": {
+            "unit_price": 780,
+            "line_total": 31200,
+            "quantity": 40,
+            "missing": false,
+            "quantity_divergent": false
+          },
+          "fornecedor_f_template_output_ia2xlsx_1": {
+            "unit_price": 300,
+            "line_total": 12000,
+            "quantity": 40,
+            "missing": false,
+            "quantity_divergent": false
+          }
+        }
+      }
+    ],
+    "proposal_keys": [
+      "fornecedor_a_template_output_iaxlsx_0",
+      "fornecedor_b_template_output_iaxlsx_0",
+      "fornecedor_c_template_output_iaxlsx_0",
+      "fornecedor_d_template_output_ia2xlsx_1",
+      "fornecedor_e_template_output_ia2xlsx_1",
+      "fornecedor_f_template_output_ia2xlsx_1"
+    ],
+    "proposal_labels": {
+      "fornecedor_a_template_output_iaxlsx_0": "Fornecedor A (Template Output IA.xlsx) [0]",
+      "fornecedor_b_template_output_iaxlsx_0": "Fornecedor B (Template Output IA.xlsx) [0]",
+      "fornecedor_c_template_output_iaxlsx_0": "Fornecedor C (Template Output IA.xlsx) [0]",
+      "fornecedor_d_template_output_ia2xlsx_1": "Fornecedor D (Template Output IA2.xlsx) [1]",
+      "fornecedor_e_template_output_ia2xlsx_1": "Fornecedor E (Template Output IA2.xlsx) [1]",
+      "fornecedor_f_template_output_ia2xlsx_1": "Fornecedor F (Template Output IA2.xlsx) [1]"
+    }
+  },
+  "comparison_result": {
+    "ranking": [
+      {
+        "supplier_key": "fornecedor_b_template_output_iaxlsx_0",
+        "rank": 1,
+        "score": 100,
+        "total": 54500
+      },
+      {
+        "supplier_key": "fornecedor_e_template_output_ia2xlsx_1",
+        "rank": 2,
+        "score": 90.64220183486239,
+        "total": 64700
+      },
+      {
+        "supplier_key": "fornecedor_d_template_output_ia2xlsx_1",
+        "rank": 3,
+        "score": 75.6880733944954,
+        "total": 81000
+      },
+      {
+        "supplier_key": "fornecedor_a_template_output_iaxlsx_0",
+        "rank": 4,
+        "score": 42.6605504587156,
+        "total": 117000
+      },
+      {
+        "supplier_key": "fornecedor_f_template_output_ia2xlsx_1",
+        "rank": 5,
+        "score": 39.90825688073395,
+        "total": 120000
+      },
+      {
+        "supplier_key": "fornecedor_c_template_output_iaxlsx_0",
+        "rank": 6,
+        "score": 39.449541284403665,
+        "total": 120500
+      }
+    ],
+    "winner_suggested": {
+      "supplier_key": "fornecedor_b_template_output_iaxlsx_0",
+      "name": "Fornecedor B (Template Output IA.xlsx) [0]"
+    },
+    "alerts": [],
+    "justifications": [
+      {
+        "supplier_key": "fornecedor_b_template_output_iaxlsx_0",
+        "bullets": [
+          "Total agregado: R$ 54500.00 (11 linha(s) com total > 0)",
+          "Menor total entre fornecedores comparados"
+        ]
+      },
+      {
+        "supplier_key": "fornecedor_e_template_output_ia2xlsx_1",
+        "bullets": [
+          "Total agregado: R$ 64700.00 (11 linha(s) com total > 0)",
+          "Diferença para o menor: R$ 10200.00"
+        ]
+      },
+      {
+        "supplier_key": "fornecedor_d_template_output_ia2xlsx_1",
+        "bullets": [
+          "Total agregado: R$ 81000.00 (11 linha(s) com total > 0)",
+          "Diferença para o menor: R$ 26500.00"
+        ]
+      },
+      {
+        "supplier_key": "fornecedor_a_template_output_iaxlsx_0",
+        "bullets": [
+          "Total agregado: R$ 117000.00 (11 linha(s) com total > 0)",
+          "Diferença para o menor: R$ 62500.00"
+        ]
+      },
+      {
+        "supplier_key": "fornecedor_f_template_output_ia2xlsx_1",
+        "bullets": [
+          "Total agregado: R$ 120000.00 (11 linha(s) com total > 0)",
+          "Diferença para o menor: R$ 65500.00"
+        ]
+      },
+      {
+        "supplier_key": "fornecedor_c_template_output_iaxlsx_0",
+        "bullets": [
+          "Total agregado: R$ 120500.00 (11 linha(s) com total > 0)",
+          "Diferença para o menor: R$ 66000.00"
+        ]
+      }
+    ]
+  },
+  "inconsistencies": [],
+  "analytic_summary": {
+    "winner_summary": "Fornecedor B (Template Output IA.xlsx) is the suggested winner with the lowest total of R$ 54,500.",
+    "ranking_summary": [
+      "Fornecedor B - Rank 1",
+      "Fornecedor E - Rank 2",
+      "Fornecedor D - Rank 3",
+      "Fornecedor A - Rank 4",
+      "Fornecedor F - Rank 5",
+      "Fornecedor C - Rank 6"
+    ],
+    "key_alerts": [],
+    "manual_review_required": false,
+    "concise_reasoning": "The comparison shows a clear winner with Fornecedor B having the lowest total cost among the proposals.",
+    "confidence": 1
+  },
+  "allQuotes": [
+    {
+      "proposal_key": "fornecedor_a_template_output_iaxlsx_0",
+      "proposal_label": "Fornecedor A (Template Output IA.xlsx) [0]",
+      "supplier_name": "Fornecedor A",
+      "source_filename": "Template Output IA.xlsx",
+      "quotation_id": "XX/26",
+      "file_index": 0,
+      "items": [
+        {
+          "item_key": "apple mac mini|q:20|u:un",
+          "descricao": "Apple Mac Mini",
+          "quantidade": 20,
+          "unidade": "UN",
+          "preco_unitario": 5000,
+          "total": 100000,
+          "row": 3
+        },
+        {
+          "item_key": "dell monitor - se2426hg|q:10|u:un",
+          "descricao": "Dell Monitor - SE2426HG",
+          "quantidade": 10,
+          "unidade": "UN",
+          "preco_unitario": 500,
+          "total": 5000,
+          "row": 4
+        },
+        {
+          "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+          "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+          "quantidade": 40,
+          "unidade": "UN",
+          "preco_unitario": 300,
+          "total": 12000,
+          "row": 5
+        },
+        {
+          "item_key": "d|u:un",
+          "descricao": "D",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 6
+        },
+        {
+          "item_key": "e|u:un",
+          "descricao": "E",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 7
+        },
+        {
+          "item_key": "f|u:un",
+          "descricao": "F",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 8
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 9
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 10
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 11
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 12
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 13
+        }
+      ],
+      "freight_total": 0,
+      "declared_total": 117000,
+      "recalculated_total": 117000,
+      "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+      "payment_terms": "Condição de pgto | 90 DIAS | 90 DIAS | 60 DIAS | 60 DIAS | 90 DIAS | 90 DIAS",
+      "warnings": []
+    },
+    {
+      "proposal_key": "fornecedor_b_template_output_iaxlsx_0",
+      "proposal_label": "Fornecedor B (Template Output IA.xlsx) [0]",
+      "supplier_name": "Fornecedor B",
+      "source_filename": "Template Output IA.xlsx",
+      "quotation_id": "XX/26",
+      "file_index": 0,
+      "items": [
+        {
+          "item_key": "apple mac mini|q:20|u:un",
+          "descricao": "Apple Mac Mini",
+          "quantidade": 20,
+          "unidade": "UN",
+          "preco_unitario": 2000,
+          "total": 40000,
+          "row": 3
+        },
+        {
+          "item_key": "dell monitor - se2426hg|q:10|u:un",
+          "descricao": "Dell Monitor - SE2426HG",
+          "quantidade": 10,
+          "unidade": "UN",
+          "preco_unitario": 450,
+          "total": 4500,
+          "row": 4
+        },
+        {
+          "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+          "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+          "quantidade": 40,
+          "unidade": "UN",
+          "preco_unitario": 250,
+          "total": 10000,
+          "row": 5
+        },
+        {
+          "item_key": "d|u:un",
+          "descricao": "D",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 6
+        },
+        {
+          "item_key": "e|u:un",
+          "descricao": "E",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 7
+        },
+        {
+          "item_key": "f|u:un",
+          "descricao": "F",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 8
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 9
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 10
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 11
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 12
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 13
+        }
+      ],
+      "freight_total": 0,
+      "declared_total": 54500,
+      "recalculated_total": 54500,
+      "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+      "payment_terms": "Condição de pgto | 90 DIAS | 90 DIAS | 60 DIAS | 60 DIAS | 90 DIAS | 90 DIAS",
+      "warnings": []
+    },
+    {
+      "proposal_key": "fornecedor_c_template_output_iaxlsx_0",
+      "proposal_label": "Fornecedor C (Template Output IA.xlsx) [0]",
+      "supplier_name": "Fornecedor C",
+      "source_filename": "Template Output IA.xlsx",
+      "quotation_id": "XX/26",
+      "file_index": 0,
+      "items": [
+        {
+          "item_key": "apple mac mini|q:20|u:un",
+          "descricao": "Apple Mac Mini",
+          "quantidade": 20,
+          "unidade": "UN",
+          "preco_unitario": 4500,
+          "total": 90000,
+          "row": 3
+        },
+        {
+          "item_key": "dell monitor - se2426hg|q:10|u:un",
+          "descricao": "Dell Monitor - SE2426HG",
+          "quantidade": 10,
+          "unidade": "UN",
+          "preco_unitario": 250,
+          "total": 2500,
+          "row": 4
+        },
+        {
+          "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+          "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+          "quantidade": 40,
+          "unidade": "UN",
+          "preco_unitario": 700,
+          "total": 28000,
+          "row": 5
+        },
+        {
+          "item_key": "d|u:un",
+          "descricao": "D",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 6
+        },
+        {
+          "item_key": "e|u:un",
+          "descricao": "E",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 7
+        },
+        {
+          "item_key": "f|u:un",
+          "descricao": "F",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 8
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 9
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 10
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 11
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 12
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 13
+        }
+      ],
+      "freight_total": 0,
+      "declared_total": 120500,
+      "recalculated_total": 120500,
+      "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+      "payment_terms": "Condição de pgto | 90 DIAS | 90 DIAS | 60 DIAS | 60 DIAS | 90 DIAS | 90 DIAS",
+      "warnings": []
+    },
+    {
+      "proposal_key": "fornecedor_d_template_output_ia2xlsx_1",
+      "proposal_label": "Fornecedor D (Template Output IA2.xlsx) [1]",
+      "supplier_name": "Fornecedor D",
+      "source_filename": "Template Output IA2.xlsx",
+      "quotation_id": "XX/26",
+      "file_index": 1,
+      "items": [
+        {
+          "item_key": "apple mac mini|q:20|u:un",
+          "descricao": "Apple Mac Mini",
+          "quantidade": 20,
+          "unidade": "UN",
+          "preco_unitario": 3500,
+          "total": 70000,
+          "row": 3
+        },
+        {
+          "item_key": "dell monitor - se2426hg|q:10|u:un",
+          "descricao": "Dell Monitor - SE2426HG",
+          "quantidade": 10,
+          "unidade": "UN",
+          "preco_unitario": 300,
+          "total": 3000,
+          "row": 4
+        },
+        {
+          "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+          "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+          "quantidade": 40,
+          "unidade": "UN",
+          "preco_unitario": 200,
+          "total": 8000,
+          "row": 5
+        },
+        {
+          "item_key": "d|u:un",
+          "descricao": "D",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 6
+        },
+        {
+          "item_key": "e|u:un",
+          "descricao": "E",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 7
+        },
+        {
+          "item_key": "f|u:un",
+          "descricao": "F",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 8
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 9
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 10
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 11
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 12
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 13
+        }
+      ],
+      "freight_total": 0,
+      "declared_total": 81000,
+      "recalculated_total": 81000,
+      "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+      "payment_terms": "Condição de pgto | 30 DIAS | 30 DIAS | 30 DIAS | 30 DIAS | 45 DIAS | 45 DIAS",
+      "warnings": []
+    },
+    {
+      "proposal_key": "fornecedor_e_template_output_ia2xlsx_1",
+      "proposal_label": "Fornecedor E (Template Output IA2.xlsx) [1]",
+      "supplier_name": "Fornecedor E",
+      "source_filename": "Template Output IA2.xlsx",
+      "quotation_id": "XX/26",
+      "file_index": 1,
+      "items": [
+        {
+          "item_key": "apple mac mini|q:20|u:un",
+          "descricao": "Apple Mac Mini",
+          "quantidade": 20,
+          "unidade": "UN",
+          "preco_unitario": 1500,
+          "total": 30000,
+          "row": 3
+        },
+        {
+          "item_key": "dell monitor - se2426hg|q:10|u:un",
+          "descricao": "Dell Monitor - SE2426HG",
+          "quantidade": 10,
+          "unidade": "UN",
+          "preco_unitario": 350,
+          "total": 3500,
+          "row": 4
+        },
+        {
+          "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+          "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+          "quantidade": 40,
+          "unidade": "UN",
+          "preco_unitario": 780,
+          "total": 31200,
+          "row": 5
+        },
+        {
+          "item_key": "d|u:un",
+          "descricao": "D",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 6
+        },
+        {
+          "item_key": "e|u:un",
+          "descricao": "E",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 7
+        },
+        {
+          "item_key": "f|u:un",
+          "descricao": "F",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 8
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 9
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 10
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 11
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 12
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 13
+        }
+      ],
+      "freight_total": 0,
+      "declared_total": 64700,
+      "recalculated_total": 64700,
+      "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+      "payment_terms": "Condição de pgto | 30 DIAS | 30 DIAS | 30 DIAS | 30 DIAS | 45 DIAS | 45 DIAS",
+      "warnings": []
+    },
+    {
+      "proposal_key": "fornecedor_f_template_output_ia2xlsx_1",
+      "proposal_label": "Fornecedor F (Template Output IA2.xlsx) [1]",
+      "supplier_name": "Fornecedor F",
+      "source_filename": "Template Output IA2.xlsx",
+      "quotation_id": "XX/26",
+      "file_index": 1,
+      "items": [
+        {
+          "item_key": "apple mac mini|q:20|u:un",
+          "descricao": "Apple Mac Mini",
+          "quantidade": 20,
+          "unidade": "UN",
+          "preco_unitario": 4000,
+          "total": 80000,
+          "row": 3
+        },
+        {
+          "item_key": "dell monitor - se2426hg|q:10|u:un",
+          "descricao": "Dell Monitor - SE2426HG",
+          "quantidade": 10,
+          "unidade": "UN",
+          "preco_unitario": 2800,
+          "total": 28000,
+          "row": 4
+        },
+        {
+          "item_key": "kit teclado + mouse bluetooth p/ macbook|q:40|u:un",
+          "descricao": "Kit Teclado + Mouse Bluetooth P/ Macbook",
+          "quantidade": 40,
+          "unidade": "UN",
+          "preco_unitario": 300,
+          "total": 12000,
+          "row": 5
+        },
+        {
+          "item_key": "d|u:un",
+          "descricao": "D",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 6
+        },
+        {
+          "item_key": "e|u:un",
+          "descricao": "E",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 7
+        },
+        {
+          "item_key": "f|u:un",
+          "descricao": "F",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 8
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 9
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 10
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 11
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 12
+        },
+        {
+          "item_key": "...|u:un",
+          "descricao": "...",
+          "quantidade": 0,
+          "unidade": "UN",
+          "preco_unitario": 0,
+          "total": 0,
+          "row": 13
+        }
+      ],
+      "freight_total": 0,
+      "declared_total": 120000,
+      "recalculated_total": 120000,
+      "installments": "PARCELAMENTO | 12 VEZES | 12 VEZES | 10 VEZES | 10 VEZES | 16 VEZES | 16 VEZES",
+      "payment_terms": "Condição de pgto | 30 DIAS | 30 DIAS | 30 DIAS | 30 DIAS | 45 DIAS | 45 DIAS",
+      "warnings": []
+    }
+  ],
+  "review_summary": {
+    "manual_review_required": false,
+    "blocking_issue_count": 0,
+    "error_issue_count": 0,
+    "warning_issue_count": 0,
+    "info_issue_count": 0,
+    "top_review_reasons": [],
+    "affected_suppliers": [],
+    "affected_files": [
+      "Template Output IA.xlsx",
+      "Template Output IA2.xlsx"
+    ],
+    "priority_queue": [],
+    "recommended_actions": [
+      "Nenhuma ação obrigatória: revisão opcional antes de homologar o vencedor sugerido."
+    ]
+  },
+  "ai_comparison_feedback": {
+    "requested": true,
+    "status": "ok",
+    "user_message": "Resumo analítico gerado com sucesso pela IA.",
+    "analytic_summary_ok": true,
+    "semantic_match_note": null
+  },
+  "semantic_match_notes": {},
+  "warnings_sample": []
+}
